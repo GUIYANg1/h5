@@ -41,7 +41,7 @@ function move(e) {
     if (movePos > 0) {
         this.prevSIndex = (index == 0 ? oLis.length - 1 : index - 1);
         var duration = -winH + movePos;
-    } else if (movePos < 0) {/*��*/
+    } else if (movePos < 0) {
         this.prevSIndex = (index == oLis.length - 1 ? 0 : index + 1);
         var duration = winH + movePos;
     }
